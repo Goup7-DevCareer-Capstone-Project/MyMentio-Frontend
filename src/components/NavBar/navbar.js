@@ -31,8 +31,10 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navStatus">
-        <button className="loginBtn"> Log in</button>
-        <button className="getStartedBtn">Get started</button>
+        <button className="loginBtn" onClick={()=> {
+            document.getElementById('/') 
+        }}> Log in</button>
+        <button className="getStartedBtn" onClick={()=>{ document.getElementById('/')}}>Get started</button>
       </div>
     </nav>
   );
