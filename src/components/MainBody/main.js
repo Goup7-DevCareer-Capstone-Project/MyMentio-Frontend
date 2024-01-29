@@ -1,63 +1,89 @@
 import React from "react";
 import "./main.css";
 
-
 const Main = () => {
-    return(
-<main>
-    <section className="firstSection">
-
-
-    <h1 className="mainText">HOW IT WORKS</h1>
-    <div className="cardContainer">
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-       
-       
-    </div>
-    </section>
-
-    <section className="secondSection">
-        <div className="card"></div>
-    </section>
-
-    <section className="thirdSection">
-        <h2>Why Should I Choose Lorem ipsum dolor sit amet consecteteriam, tenesint?</h2>
-        <div className="cardContainer2">
-            <div className="card">
-              <p></p>
-                <h3>Unique Therapy Toolbox</h3>
-                <img src="" alt="" />
-            </div>
-            <div className="card">
-              <p></p>
-                <h3>Top quality therapy </h3>
-                <img src="" alt="" />
-            </div>
-            <div className="card">
-              <p></p>
-                <h3>Save you money </h3>
-                <img src="" alt="" />
-            </div>
-            <div className="card">
-              <p></p>
-                <h3>It’s time-saving</h3>
-                <img src="" alt="" />
-            </div>
-            
-            
-            
+  return (
+    <main>
+      <section className="firstSection">
+        <h1 className="mainText">HOW IT WORKS</h1>
+        <div className="cardContainer">
+          <div className="card">
+            <h2>1</h2>
+            Get matched with a licensed therapy who specializes in mental health
+          </div>
+          <div className="card">
+            <h2>2</h2>
+            Discuss your issues and situations with the therapist
+          </div>
+          <div className="card">
+            <h2>3</h2>
+            When you approve, the therapist is connected with you
+          </div>
+          <div className="card">
+            <h2>4</h2>
+            You uses your mobile app on your phone to communicate with the
+            therapist
+          </div>
+          <div className="card">
+            <h2>5</h2>
+            The therapist interact with you over text, phone, and video
+          </div>
+          <div className="card">
+            <h2>6</h2>
+            Generally the therapist will not share what is discuss in therapy,
+            however, they will alert you if an intervention is required
+          </div>
         </div>
-       <button className="cardButton"></button>
-    </section>
-    
-</main>
-    )
-}
+      </section>
+
+      <section className="secondSection">
+        <div className="card">Consult a therapist</div>
+      </section>
+
+      <section className="thirdSection">
+        <h2>Why should I Choose My Mentio </h2>
+        <div className="cardContainer2">
+          <div className="card">
+            <p></p>
+            <h3>Unique Therapy Toolbox</h3>
+            <div className="info">
+              Our services is different from other therapy services! Our
+              happiness toolbox includes therapy live sessions, messaging, yoga,
+              journal, activity plan and much more!
+            </div>
+          </div>
+          <div className="card">
+            <p></p>
+            <h3>Top quality therapy </h3>
+            <div className="info">
+              Our program is based on proven, well-researched CBT treatments.
+              Our therapists are highly qualified with a wide range of
+              credentials. You can switch therapist whenever needed.
+            </div>
+          </div>
+          <div className="card">
+            <p></p>
+            <h3>Save you money </h3>
+            <div className="info">
+              Online therapy is much less expensive compared to face-to-face
+              therapy. You pay a low monthly fee for daily support from your
+              therapist.
+            </div>
+          </div>
+          <div className="card">
+            <p></p>
+            <h3>It’s time-saving</h3>
+            <div className="info">
+              There is no hassle with traveling or keeping an appointment. You
+              can get help from wherever you are in the world. All you need is a
+              mobile phone, computer or tablet.
+            </div>
+          </div>
+        </div>
+        <button className="cardButton">Consult a therapist</button>
+      </section>
+    </main>
+  );
+};
 
 export default Main;
-
