@@ -1,0 +1,80 @@
+.span1 {
+  color: var(--color-black);
+}
+.capstonealtgmailcom1 {
+  font-weight: 800;
+  color: var(--color-darkslateblue-200);
+}
+.an-email-has-container {
+  position: relative;
+}
+.an-email-has-been-sent-to-caps-wrapper {
+  width: 544px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 68px;
+  max-width: 100%;
+}
+.verification-page,
+.verification-page-inner {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.verification-page-inner {
+  width: 725px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 59px 0 var(--padding-xl);
+  max-width: 100%;
+}
+.verification-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--surface-primary);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 5var (--padding-8xs) 0 310px 5px;
+  gap: 149px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .verification-page {
+    gap: 74px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent {
+    gap: var(--gap-15xl);
+  }
+  .verification-page-inner {
+    padding-right: 29px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .an-email-has-container {
+    font-size: var(--font-size-base);
+  }
+  .frame-parent {
+    gap: var(--gap-mid);
+  }
+  .verification-page {
+    gap: 37px;
+  }
+}

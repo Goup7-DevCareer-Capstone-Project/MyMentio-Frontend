@@ -1,0 +1,43 @@
+.frame-child {
+  height: 72px;
+  width: 72px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.ellipse-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  z-index: 1;
+}
+.my-mentio {
+  flex: 1;
+  position: relative;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.frame-group,
+.my-mentio-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.my-mentio-wrapper {
+  flex: 1;
+  justify-content: flex-end;
+  padding: var(--padding-3xs) var(--padding-12xs) var(--padding-3xs)
+    var(--padding-3xs);
+  z-index: 2;
+  margin-left: -6px;
+}
+.frame-group {
+  width: 273px;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

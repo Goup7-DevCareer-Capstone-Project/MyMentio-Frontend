@@ -1,0 +1,120 @@
+.mdicloud-done-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.password-reset-successful {
+  height: 29px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.mdiclouddone-frame,
+.parent-frame-for-confirmation {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mdiclouddone-frame {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 51px 0 58px;
+  position: relative;
+}
+.parent-frame-for-confirmation {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+}
+.log-in1 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-darkslateblue-200);
+  text-align: left;
+  white-space: nowrap;
+}
+.login-frame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl);
+  background-color: var(--faint-blue);
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.login-frame:hover {
+  background-color: var(--color-lightsteelblue-100);
+}
+.parent-frame-for-confirmation-parent,
+.successful-reset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.parent-frame-for-confirmation-parent {
+  width: 686px;
+  height: 523px;
+  padding: 0 var(--padding-xl);
+  gap: 66px;
+  max-width: 100%;
+}
+.successful-reset {
+  width: 100%;
+  position: relative;
+  background-color: var(--surface-primary);
+  overflow: hidden;
+  padding: var(--padding-23xl) 0 235px;
+  gap: 88px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslateblue-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .successful-reset {
+    gap: 44px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .parent-frame-for-confirmation-parent {
+    gap: 33px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .password-reset-successful {
+    font-size: var(--font-size-lgi);
+  }
+  .mdiclouddone-frame {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .log-in1 {
+    font-size: var(--font-size-lgi);
+  }
+  .parent-frame-for-confirmation-parent {
+    gap: var(--gap-base);
+  }
+  .successful-reset {
+    gap: 22px;
+  }
+}

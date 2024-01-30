@@ -1,0 +1,112 @@
+.email-frame,
+.google-signup {
+  border: 0;
+  background-color: transparent;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.email-frame,
+.forget-password-link,
+.google-signup {
+  align-self: stretch;
+  height: 39px;
+}
+.forget-password {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-darkslateblue-200);
+  text-align: left;
+}
+.login-frame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email-input,
+.google-logo-frame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.google-logo-frame {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-smi);
+}
+.email-input {
+  width: 560px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+.login-button {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 7px;
+  max-width: 100%;
+}
+.login-button,
+.login-page,
+.signup-buttons,
+.signup-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.signup-buttons {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 39px;
+  max-width: 100%;
+}
+.login-page,
+.signup-frame {
+  box-sizing: border-box;
+}
+.signup-frame {
+  margin: 0;
+  width: 908px;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl);
+  gap: 58px;
+  max-width: 100%;
+}
+.login-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--surface-primary);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-23xl) 0 337px;
+  gap: 141px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .login-page {
+    gap: 70px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .forget-password-link {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .signup-buttons {
+    gap: 19px;
+  }
+  .signup-frame {
+    gap: 29px;
+  }
+  .login-page {
+    gap: 35px;
+  }
+}

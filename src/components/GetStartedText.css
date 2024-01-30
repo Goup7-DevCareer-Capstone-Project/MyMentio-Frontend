@@ -1,0 +1,178 @@
+.age-dropdown-formselect,
+.wrapper {
+  height: 39px;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.wrapper {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+  min-width: 300px;
+  max-width: 100%;
+}
+.age-dropdown-formselect {
+  width: 312px;
+}
+.frame-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  min-height: 44px;
+  max-width: 100%;
+}
+.hobbies-parent,
+.mental-health-dropdown {
+  height: 44px;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.mental-health-dropdown {
+  width: 110px;
+}
+.hobbies-parent {
+  align-self: stretch;
+}
+.frame-wrapper {
+  width: 131px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+}
+.mental-health-dropdown1 {
+  width: 312px;
+  height: 44px;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.mental-health-dropdown-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-item {
+  border: 1px solid var(--color-gray-100);
+  outline: 0;
+  background-color: var(--surface-primary);
+  height: 39px;
+  flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  min-width: 250px;
+  max-width: 100%;
+}
+.get-started-text-inner {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  max-width: 100%;
+}
+.frame-inner,
+.get-started-text-child,
+.get-started-text-inner,
+.reenter-password-label {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frame-inner {
+  border: 1px solid var(--color-gray-100);
+  outline: 0;
+  background-color: transparent;
+  flex: 1;
+  align-items: center;
+  padding: var(--padding-3xs);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  max-width: 100%;
+}
+.get-started-text-child,
+.reenter-password-label {
+  align-self: stretch;
+}
+.get-started-text-child {
+  align-items: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  max-width: 100%;
+}
+.reenter-password-label {
+  border: 1px solid var(--color-gray-100);
+  outline: 0;
+  background-color: transparent;
+  height: 39px;
+  align-items: center;
+  padding: var(--padding-3xs);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.sign-up-with-google-label {
+  align-self: stretch;
+  flex: 1;
+}
+.google-sign-in-button {
+  align-self: stretch;
+  height: 92px;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+}
+.get-started-text1,
+.google-sign-in-button,
+.sign-in-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sign-in-button {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-7xl);
+}
+.get-started-text1 {
+  margin: 0;
+  width: 909px;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-34xl);
+  max-width: 100%;
+}
+@media screen and (max-width: 750px) {
+  .mental-health-dropdown-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sign-up-with-google-label {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .get-started-text1 {
+    gap: var(--gap-7xl);
+  }
+}

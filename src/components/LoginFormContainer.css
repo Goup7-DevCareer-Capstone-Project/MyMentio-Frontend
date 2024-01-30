@@ -1,0 +1,64 @@
+.log-in2 {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  white-space: nowrap;
+}
+.get-started-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-8xs) var(--padding-3xs)
+    var(--padding-3xs);
+  z-index: 1;
+}
+.get-started1 {
+  height: 29px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-gainsboro);
+  text-align: left;
+  display: inline-block;
+}
+.login-text,
+.parent-logind-getstarted-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.parent-logind-getstarted-frame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-7xs) var(--padding-xl)
+    var(--padding-2xs);
+  background-color: var(--color-darkslateblue-200);
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.parent-logind-getstarted-frame:hover {
+  background-color: var(--color-darkslateblue-100);
+}
+.login-text {
+  width: 296px;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .login-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login-text {
+    gap: var(--gap-6xl);
+  }
+}

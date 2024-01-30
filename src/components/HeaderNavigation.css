@@ -1,0 +1,81 @@
+.rectangle-shape {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--faint-blue);
+}
+.home1 {
+  height: 29px;
+  display: inline-block;
+}
+.blogs1,
+.home1 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.about-us1,
+.contact-us1 {
+  height: 29px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.about-us1,
+.contact-us1,
+.faqs1 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.multi-frame-group {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.header-navbar1,
+.text-frame-contact-us {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text-frame-contact-us {
+  width: 587px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) var(--padding-8xs) 0;
+}
+.header-navbar1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-12xs) var(--padding-mid) var(--padding-12xs)
+    var(--padding-10xs);
+  position: sticky;
+  gap: var(--gap-xl);
+  top: 0;
+  z-index: 99;
+}
+@media screen and (max-width: 1150px) {
+  .multi-frame-group {
+    display: none;
+  }
+  .text-frame-contact-us {
+    width: 8px;
+  }
+}
