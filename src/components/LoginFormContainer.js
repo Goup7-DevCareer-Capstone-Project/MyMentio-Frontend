@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import "./LoginFormContainer.css";
 
 const LoginFormContainer = ({
-  logInId,
   onParentLogindGetstartedFrameClick,
 }) => {
   return (

@@ -10,7 +10,7 @@ const LoginFormContainer1 = ({
   return (
     <div className="reset-email-text-parent">
       <button className="reset-email-text">
-        <Link className="log-in3" id={userId1} to={pagePath}>
+      <Link className="log-in3" id={userId1} to={pagePath}>
           Log in
         </Link>
       </button>

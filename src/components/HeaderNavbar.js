@@ -127,7 +127,7 @@ const HeaderNavbar = ({
       <div className="logininputframe">
         <div className="loginbuttonframe" style={loginbuttonframeStyle}>
           <div className="log-in" style={logInStyle}>
-            Log in
+           Log in 
           </div>
         </div>
         <div
