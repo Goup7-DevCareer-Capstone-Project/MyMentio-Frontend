@@ -16,7 +16,7 @@ export const Button = ({
     : STYLES[0];
 
   return (
-    <Link to="/getStarted" className="btnPrimary">
+    <Link to="/getStarted" className="btnSecondary">
       <button
         className={`btn ${checkButtonStlye}`}
         onClick={onclick}

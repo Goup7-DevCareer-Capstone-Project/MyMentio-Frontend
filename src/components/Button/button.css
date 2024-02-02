@@ -13,7 +13,7 @@
   font-size: 1rem;
   border: none;
   cursor: pointer;
-  margin-right: 3rem;
+  margin-right: 2rem;
   padding: 0.2rem;
   text-decoration: none;
   cursor: pointer;
@@ -22,8 +22,14 @@
 
 @media screen and (max-width: 960px) {
     .btnSecondary {
-     margin-right: 10rem;
-     font-size: 10px;
-     width: 80px;
+        text-align: center;
+        place-self: center;
+        font-size: 10px;
+        width: 150px;
       
-    }}
+    }
+    .btnPrimary{
+        color: #ffffff;
+    }
+
+}

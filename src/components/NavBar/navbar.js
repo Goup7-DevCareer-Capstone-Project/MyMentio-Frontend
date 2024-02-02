@@ -108,9 +108,9 @@ const Navbar = () => {
               Log in
             </Link>
           </li>
+        {button && <Button buttonStyle="btnSecondary">Get started</Button>}
         </ul>
         
-        {button && <Button buttonStyle="btnSecondary">Get started</Button>}
        
       </div>
     </nav>
