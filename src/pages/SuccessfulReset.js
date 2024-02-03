@@ -40,7 +40,7 @@ const SuccessfulReset = () => {
       <div className="parent-frame-for-confirmation-parent">
         <div className="parent-frame-for-confirmation">
           <div className="mdiclouddone-frame">
-            <img className="mdicloud-done-icon" loading="eager" alt=" " />
+            <img src="/Vectorpasswordresetsuccess.png" className="mdicloud-done-icon" loading="auto" alt=" " />
             <div className="password-reset-successful">
               Password Reset Successful
             </div>
