@@ -1,0 +1,170 @@
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed;
+  left: 0;
+  right: 0;
+  top: 0; */
+  margin-top: 1rem;
+  /* z-index: 100; */
+  background: #cdd2f6;
+  height: 4rem;
+  width: 100vw;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+.navLogo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-left: 1rem;
+}
+.navLogo img {
+  width: 3rem;
+}
+.siteName {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 800px;
+}
+
+.navList {
+  display: flex;
+}
+.navList .btnPrimary {
+  padding-left: 2rem;
+}
+
+.navList ul {
+  display: flex;
+  gap: 3rem;
+  font-size: 1rem;
+  flex-direction: wrap;
+ 
+}
+
+.navList ul li {
+  list-style: none;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.fa-bars {
+  color: #000000;
+}
+.fa-times {
+  color: #000000;
+}
+
+.navLinkMobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  
+  .NavItem {
+    position: relative;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+
+  .navLink {
+    text-align: center;
+    padding: 12px;
+    width: 100%;
+    display: table;
+    color: #ffffff;
+  }
+
+  .navLink:hover {
+    background-color: #fff;
+    color: #242424;
+    border-radius: 0;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+   padding: 5px 0;
+   
+  }
+  .navList .btnPrimary {
+    padding:  0;
+    margin-left: 45%;
+
+  }
+
+  .fa-times {
+    color: #000000;
+    font-size: 2rem;
+  }
+
+  .navLinkMobile {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+  }
+
+  .navLinkMobile:hover {
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+
+.navLogo img {
+  width: 2rem;
+}
+.siteName {
+  font-size: 1rem;
+  
+}
+.navList .btnSecondary {
+  margin: 0;
+  
+  place-self: center;
+  
+}
+}
