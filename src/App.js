@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Footer from "./components/Footer/footer";
+
 // import Header from "./components/Header/header";
 // import MainBody from "./components/MainBody/main";
 // import ImageSlider from "./components/Slider/imageslider";
@@ -33,3 +34,4 @@ function App() {
 }
 
 export default App;
+
