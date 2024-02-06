@@ -1,8 +1,36 @@
+.mainMission {
+  height: 400px;
+  width: 90%;
+  text-align: center;
+  background: #cdd2f6;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.mainMission h2 {
+  padding-top: 7rem;
+  margin-bottom: 2rem;
+}
+.mainVission {
+  height: 400px;
+  width: 90%;
+  text-align: center;
+  background: #2e3788;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.mainVission h2 {
+  padding-top: 7rem;
+  margin-bottom: 2rem;
+}
 
 .firstSection {
   background: #cdd2f6;
-  margin-top: 1rem;
+  margin-top: 2rem;
   width: 90%;
   display: block;
   margin-left: auto;
@@ -40,7 +68,7 @@
 
 .secondSection {
   background: #cdd2f6;
-  margin-top: 1rem;
+  margin-top: 2cm;
   width: 90%;
   display: block;
   margin-left: auto;
@@ -50,8 +78,8 @@
   display: flex;
   flex-wrap: wrap;
 }
-.secondSection{
-    background: #2e3788;
+.secondSection {
+  background: #2e3788;
 }
 
 .secondSection .card {
@@ -69,12 +97,11 @@
   text-align: center; */
   font-size: 1.5rem;
   font-weight: 800;
-
 }
 
 .thirdSection {
-  background: #F6E6CDBF;
-  margin-top: 1rem;
+  background: #f6e6cdbf;
+  margin-top: 2rem;
   width: 90%;
   display: block;
   margin-left: auto;
@@ -121,21 +148,20 @@
 }
 
 .cardButton {
-    align-items: center;
-    display: inline-flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 300px;
-    place-self: center;
-    height: 50px;
-    background: #2e3788;
-    color: #fffdfd;
-    border-radius: 10px;
-    gap: 10px;
-    /*padding: 20px 36px;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 300px;
+  place-self: center;
+  height: 50px;
+  background: #2e3788;
+  color: #fffdfd;
+  border-radius: 10px;
+  gap: 10px;
+  /*padding: 20px 36px;
     text-align: center; */
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin-bottom: 4rem;
-  
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 4rem;
 }
