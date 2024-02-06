@@ -1,0 +1,64 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #cdd2f6;
+  width: 100vw;
+  height: 40vh;
+  align-items: center;
+}
+
+.footer h2 {
+  margin-bottom: 16px;
+}
+.footer p {
+  margin-top: 16px;
+}
+.footerLogo {
+  align-items: center;
+}
+.footerNav ul li {
+  display: block;
+  text-decoration: none;
+  
+}
+
+.footerSupport {
+  margin-bottom: 90px;
+}
+
+.footerLegal {
+  margin-bottom: 20px;
+ 
+}
+.footerLegal p{
+    color: black;
+}
+.footerSub h3 {
+  font-weight: 10;
+  font-size: 15px;
+}
+.footerSub input {
+  display: block;
+  margin-top: 16px;
+  height: 40px;
+  width: 20vw;
+  border-radius: 5px;
+  border: 1px light gray;
+  margin-bottom: 10px;
+}
+
+.footerSub button {
+  background: #ffffff;
+  border: none;
+  height: 30px;
+  width: 100px;
+}
+
+  .icon{
+    text-decoration: none;
+    margin-top: 16px;
+    color: black;
+    padding-left: 5px;
+}

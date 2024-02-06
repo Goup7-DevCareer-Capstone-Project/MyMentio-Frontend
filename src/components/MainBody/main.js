@@ -1,9 +1,29 @@
 import React from "react";
 import "./main.css";
+import firstImage from "../../assets/ri_psychotherapy-fill.png";
+import secondImage from "../../assets/maki_star.png";
+import thirdImage from "../../assets/Vector.png";
+import fourthImage from "../../assets/game-icons_time-bomb.png";
 
 const Main = () => {
   return (
     <main>
+      <div className="mainMission">
+       
+
+        <h2>Our Mission</h2>
+        <p>
+          Providing accessible and personalized online therapy and resources
+        </p>
+       
+      </div>
+      <div className="mainVission">
+        <h2>Our Vission</h2>
+        <p>
+          To create an avenue where everyone has access to quality mental and
+          feels empowered to prioritize their well-being.
+        </p>
+      </div>
       <section className="firstSection">
         <h1 className="mainText">HOW IT WORKS</h1>
         <div className="cardContainer">
@@ -44,7 +64,7 @@ const Main = () => {
         <h2>Why should I Choose My Mentio </h2>
         <div className="cardContainer2">
           <div className="card">
-            <p></p>
+            <img src={firstImage} alt="psychotherapy" />
             <h3>Unique Therapy Toolbox</h3>
             <div className="info">
               Our services is different from other therapy services! Our
@@ -53,7 +73,7 @@ const Main = () => {
             </div>
           </div>
           <div className="card">
-            <p></p>
+            <img src={secondImage} alt="star" />
             <h3>Top quality therapy </h3>
             <div className="info">
               Our program is based on proven, well-researched CBT treatments.
@@ -62,7 +82,7 @@ const Main = () => {
             </div>
           </div>
           <div className="card">
-            <p></p>
+            <img src={thirdImage} alt="vector" />
             <h3>Save you money </h3>
             <div className="info">
               Online therapy is much less expensive compared to face-to-face
@@ -71,7 +91,7 @@ const Main = () => {
             </div>
           </div>
           <div className="card">
-            <p></p>
+            <img src={fourthImage} alt="time-bomb" />
             <h3>It’s time-saving</h3>
             <div className="info">
               There is no hassle with traveling or keeping an appointment. You
