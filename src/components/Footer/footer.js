@@ -123,6 +123,12 @@ function Footer() {
           <Link to="/privacy">
             <p>Privacy</p>
           </Link>
+          <Link to="/search">
+            <p>search</p>
+          </Link>
+          <Link to="/hobbies">
+            <p>hobbies</p>
+          </Link>
         </div>
       </div>
       <div className="footerSub">
@@ -137,13 +143,13 @@ function Footer() {
             <FontAwesomeIcon icon="fa-brands fa-facebook" className="icon" />
           </Link>
           <Link to="/" className="icon">
-            <FontAwesomeIcon icon="fa-brands fa-linkedin" className="icon"/>
+            <FontAwesomeIcon icon="fa-brands fa-linkedin" className="icon" />
           </Link>
           <Link to="/" className="icon">
-            <FontAwesomeIcon icon="fa-brands fa-instagram" className="icon"/>
+            <FontAwesomeIcon icon="fa-brands fa-instagram" className="icon" />
           </Link>
           <Link to="/" className="icon">
-            <FontAwesomeIcon icon="fa-brands fa-twitter" className="icon"/>
+            <FontAwesomeIcon icon="fa-brands fa-twitter" className="icon" />
           </Link>
         </div>
       </div>
