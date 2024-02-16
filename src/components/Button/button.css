@@ -5,31 +5,55 @@
   text-decoration: none;
   color: #000000;
   cursor: pointer;
+  background: #cdd2f6;
+  border: 1px solid gray;
+  height: 1rem;
+  text-align: center;
+  padding: 6px;
+}
+.btnPrimary:hover {
+  background: #2e3788;
+  color: #ffffff;
 }
 
 .btnSecondary {
   color: #ddd9d9;
   background: #2e3788;
   font-size: 1rem;
-  border: none;
+  padding: 8px;
+  border: 1px solid gray;
   cursor: pointer;
-  margin-right: 2rem;
-  padding: 0.2rem;
+  margin-right: 4.5rem;
+  height: 2rem;
   text-decoration: none;
   cursor: pointer;
+  text-align: center;
+}
+.btnSecondary:hover {
+  background: #cdd2f6;
+  color: #000000;
 }
 
-
 @media screen and (max-width: 960px) {
-    .btnSecondary {
-        text-align: center;
-        place-self: center;
-        font-size: 10px;
-        width: 150px;
-      
-    }
-    .btnPrimary{
-        color: #ffffff;
-    }
+  .btnSecondary {
+    text-align: center;
 
+    font-size: 10px;
+
+    padding: 0;
+    width: 50vw;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .btnPrimary {
+    color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    /* padding: 12px 0; */
+
+    width: 50vw;
+    display: block;
+  }
 }

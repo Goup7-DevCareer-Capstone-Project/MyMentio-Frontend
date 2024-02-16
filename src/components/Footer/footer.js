@@ -81,16 +81,7 @@ function Footer() {
                 FAQs
               </Link>
             </li>
-            <li className="navItem">
-              <Link to="/logIn" className="btnPrimary">
-                Log in
-              </Link>
-            </li>
-            <li className="navItem">
-              <Link to="/" className="btnPrimary">
-                Sign Up
-              </Link>
-            </li>
+           
           </ul>
         </div>
       </div>
@@ -114,21 +105,16 @@ function Footer() {
       <div className="footerLegal">
         <div>
           <h2>Legal</h2>
-          <Link to="/t&s">
+          <Link to="/t&s" className='navLink'>
             <p>Terms of service</p>
           </Link>
-          <Link to="/policy">
+          <Link to="/policy" className='navLink'>
             <p>Policy</p>
           </Link>
-          <Link to="/privacy">
+          <Link to="/privacy" className='navLink'>
             <p>Privacy</p>
           </Link>
-          <Link to="/search">
-            <p>search</p>
-          </Link>
-          <Link to="/hobbies">
-            <p>hobbies</p>
-          </Link>
+         
         </div>
       </div>
       <div className="footerSub">

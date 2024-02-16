@@ -9,10 +9,52 @@
   margin-top: 1rem;
   /* z-index: 100; */
   background: #cdd2f6;
-  height: 4rem;
+  height: 5rem;
   width: 100vw;
   flex-wrap: wrap;
-  overflow-y: hidden;
+}
+
+.dropbtn {
+  padding: 2px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.dropdown-content Link {
+  color: black;
+
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content Link:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+#logout {
+  margin-right: 40px;
 }
 
 .navLogo {
@@ -33,16 +75,12 @@
 .navList {
   display: flex;
 }
-.navList .btnPrimary {
-  padding-left: 2rem;
-}
 
 .navList ul {
   display: flex;
   gap: 3rem;
   font-size: 1rem;
   flex-direction: wrap;
- 
 }
 
 .navList ul li {
@@ -71,7 +109,10 @@
 }
 
 @media screen and (max-width: 960px) {
-  
+  #nav{
+    overflow-y: hidden;
+    height: 5rem;
+  }
   .NavItem {
     position: relative;
   }
@@ -91,16 +132,16 @@
   .nav-menu.active {
     background: #242222;
     left: 0;
+    
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
   }
 
-
   .navLink {
     text-align: center;
-    padding: 12px;
-    width: 100%;
+    padding: 12px 0;
+    width: 80vw;
     display: table;
     color: #ffffff;
   }
@@ -114,19 +155,18 @@
   .menu-icon {
     display: block;
     position: absolute;
-    top: 0;
-    right: 10%;
+    
+    top: 10px;
+    right: 5%;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-   padding: 5px 0;
-   
+    padding: 5px 0;
   }
-  .navList .btnPrimary {
-    padding:  0;
-    margin-left: 45%;
-
-  }
+  /* .navList .btnPrimary {
+    padding: 0;
+    margin-left: ;
+  } */
 
   .fa-times {
     color: #000000;
@@ -136,7 +176,9 @@
   .navLinkMobile {
     display: block;
     text-align: center;
-    margin: 2rem auto;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin: 2rem auto; */
     border-radius: 4px;
     width: 80%;
     text-decoration: none;
@@ -154,17 +196,11 @@
     transition: 250ms;
   }
 
-.navLogo img {
-  width: 2rem;
-}
-.siteName {
-  font-size: 1rem;
-  
-}
-.navList .btnSecondary {
-  margin: 0;
-  
-  place-self: center;
-  
-}
+  .navLogo img {
+    width: 2rem;
+  }
+  .siteName {
+    font-size: 1rem;
+  }
+ 
 }

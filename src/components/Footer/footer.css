@@ -29,11 +29,13 @@
 }
 
 .footerLegal {
-  margin-bottom: 20px;
+ 
+  margin-top: 2rem;
  
 }
 .footerLegal p{
     color: black;
+   
 }
 .footerSub h3 {
   font-weight: 10;
@@ -61,4 +63,102 @@
     margin-top: 16px;
     color: black;
     padding-left: 5px;
+}
+
+
+@media screen and (max-width: 960px) {
+
+  .footer {
+    display: block;
+    overflow-x: hidden;
+   
+    background: #cdd2f6;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+   place-items: center;
+
+  }
+  
+  .footer h2 {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .footer p {
+    margin-top: 1px;
+    text-align: center;
+  }
+  .footerLogo {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+  }
+  .footerNav {
+    display: none;
+   
+    
+  }
+  
+  .footerSupport {
+    
+    display: none;
+   
+  }
+  
+  .footerLegal {
+   
+    margin-top: 1rem;
+   
+  }
+  .footerLegal p{
+      color: black;
+      text-align: center;
+     
+  }
+  .footerSub h3 {
+    font-weight: 10;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .footerSub input {
+    display: block;
+    margin-top: 16px;
+    height: 40px;
+    width: 20vw;
+    border-radius: 5px;
+    border: 1px light gray;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+  }
+  
+  .footerSub button {
+    background: #ffffff;
+    border: none;
+    height: 30px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 4rem;
+   
+  }
+  
+    .icon{
+      text-decoration: none;
+      margin-top: 16px;
+      color: black;
+      margin-right: auto;
+    margin-left: auto;
+     display: flex;
+  }
+  
+  
+  
+  
 }

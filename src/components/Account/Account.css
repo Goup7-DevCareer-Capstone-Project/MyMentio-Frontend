@@ -1,0 +1,217 @@
+/* .registerPage {
+  display: flex;
+  overflow-x: hidden;
+  width: 80vw;
+  justify-items: center;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: none;
+} */
+.registerImage {
+  width: 40vw;
+  margin-left: auto;
+  margin-right: 0;
+  height: 500px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+/* 
+.register {
+  margin-left: 190px;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+} */
+
+.container {
+  width: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.cardHeader {
+  font-size: large;
+  font-weight: 500px;
+  border: 1px solid gray;
+  border-top-left-radius: 50px;
+  /* text-align: center; */
+  display: inline-flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+  width: 40vw;
+  background: #2e3788;
+  color: #ffffff;
+}
+
+.cardBody {
+  font-size: large;
+  font-weight: 500px;
+  border: 1px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+  /* text-align: center; */
+  display: inline-flex;
+  justify-content: center;
+  height: 333px;
+  align-items: center;
+  width: 40vw;
+}
+
+.cardfooter {
+  font-size: large;
+  font-weight: 500px;
+  border: 1px solid gray;
+  border-bottom-left-radius: 50px;
+  /* text-align: center; */
+  display: inline-flex;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+  width: 40vw;
+}
+
+.errmsg {
+  color: red;
+}
+label {
+  display: block;
+}
+input {
+  display: inline-flex;
+  width: 35vw;
+  height: 30px;
+  text-align: center;
+}
+
+.cardSelect {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 960px) {
+  .registerPage {
+    display: block;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    height: 100vh;
+  }
+  .registerImage {
+    display: block;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 314px;
+    height: 300px;
+  
+  }
+
+  
+/* 
+  .register {
+    display: block;
+    width: 300px;
+
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+    margin-top: 0;
+    
+  } */
+
+  .container {
+    display: block;
+
+    width: 300px;
+    height: 300px;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 171px;
+  }
+
+  .cardHeader {
+    font-size: large;
+    font-weight: 300px;
+    border: 1px solid gray;
+    border-top-left-radius: 0;
+    /* text-align: center; */
+    display: inline-flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    width: 80vw;
+    background: #2e3788;
+    color: #ffffff;
+  }
+
+  .cardBody {
+    font-size: large;
+    font-weight: 300px;
+    border: 1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+    display: inline-flex;
+    justify-content: center;
+    height: 333px;
+    align-items: center;
+    width: 80vw;
+  }
+
+  .cardfooter {
+    font-size: large;
+    font-weight: 300px;
+    margin-bottom: 5rem;
+    border-bottom-left-radius: 0;
+    /* text-align: center; */
+    display: inline-flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    width: 80vw;
+  }
+
+  .errmsg {
+    color: red;
+  }
+  label {
+    display: flex;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  input {
+    display: flex;
+    width: 70vw;
+    height: 30px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .cardSelect {
+    margin-top: 1rem;
+    display: block;
+    justify-content: space-between;
+    width: 70vw;
+    margin-left: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .loginPage{
+    display: block;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    height: 100vh;
+  }
+}
