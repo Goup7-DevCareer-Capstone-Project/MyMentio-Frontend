@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https:/Goup7-DevCareer-Capstone-Project/MyMentio-Frontend/static/css/main.0bd32e7b.css",
-    "main.js": "/https:/Goup7-DevCareer-Capstone-Project/MyMentio-Frontend/static/js/main.913211ce.js",
-    "static/media/Rectangle 18.png": "/https:/Goup7-DevCareer-Capstone-Project/MyMentio-Frontend/static/media/Rectangle 18.fb5a3ab076cb425f0981.png",
-    "static/media/Rectangle 2.png": "/https:/Goup7-DevCareer-Capstone-Project/MyMentio-Frontend/static/media/Rectangle 2.a942f324c94e4cfcc35c.png",
-    "index.html": "/https:/Goup7-DevCareer-Capstone-Project/MyMentio-Frontend/index.html",
-    "main.0bd32e7b.css.map": "/https:/Goup7-DevCareer-Capstone-Project/MyMentio-Frontend/static/css/main.0bd32e7b.css.map",
-    "main.913211ce.js.map": "/https:/Goup7-DevCareer-Capstone-Project/MyMentio-Frontend/static/js/main.913211ce.js.map"
+    "main.css": "/Goup7-DevCareer-Capstone-Project/MyMentio-Frontend/static/css/main.0bd32e7b.css",
+    "main.js": "/Goup7-DevCareer-Capstone-Project/MyMentio-Frontend/static/js/main.62cf86c0.js",
+    "static/media/Rectangle 18.png": "/Goup7-DevCareer-Capstone-Project/MyMentio-Frontend/static/media/Rectangle 18.fb5a3ab076cb425f0981.png",
+    "static/media/Rectangle 2.png": "/Goup7-DevCareer-Capstone-Project/MyMentio-Frontend/static/media/Rectangle 2.a942f324c94e4cfcc35c.png",
+    "index.html": "/Goup7-DevCareer-Capstone-Project/MyMentio-Frontend/index.html",
+    "main.0bd32e7b.css.map": "/Goup7-DevCareer-Capstone-Project/MyMentio-Frontend/static/css/main.0bd32e7b.css.map",
+    "main.62cf86c0.js.map": "/Goup7-DevCareer-Capstone-Project/MyMentio-Frontend/static/js/main.62cf86c0.js.map"
   },
   "entrypoints": [
     "static/css/main.0bd32e7b.css",
-    "static/js/main.913211ce.js"
+    "static/js/main.62cf86c0.js"
   ]
 }
