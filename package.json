@@ -34,6 +34,7 @@
     "predeploy": "npm run build",
     "server": "json-server db.json --watch --port 8000",
     "server2": "json-server Therapist.json --watch --port 8001"
+    
   },
   "eslintConfig": {
     "extends": [
