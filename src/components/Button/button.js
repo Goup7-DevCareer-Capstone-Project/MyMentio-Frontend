@@ -2,6 +2,7 @@ import React from "react";
 import "./button.css";
 import { Link } from "react-router-dom";
 
+
 const STYLES = ["btnPrimary", "btnSecondary"];
 
 export const Button = ({
@@ -13,7 +14,7 @@ export const Button = ({
 }) => {
   const checkButtonStlye = STYLES.includes(buttonStyle)
     ? buttonStyle
-    : STYLES[0];
+    : STYLES[3];
 
   return (
     <Link to="/getStarted" className="btnSecondary">

@@ -35,7 +35,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 80vh;
+  /* height: 100vh; */
 }
 
 .mainText {
@@ -55,7 +55,7 @@
 
 .firstSection .card {
   width: 300px;
-  height: 100px;
+  /* height: 100px; */
   margin-bottom: 6rem;
   background: transparent;
 }
@@ -164,4 +164,26 @@
   font-size: 1.5rem;
   font-weight: 800;
   margin-bottom: 4rem;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+.cardContainer2{
+  display: block;
+  text-align: center;
+  align-self: center;
+}
+
+ .info{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardContainer2 h3{
+  text-align: center;
+}
+
 }

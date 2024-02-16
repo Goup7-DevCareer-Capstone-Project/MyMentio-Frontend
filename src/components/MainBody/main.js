@@ -4,6 +4,7 @@ import firstImage from "../../assets/ri_psychotherapy-fill.png";
 import secondImage from "../../assets/maki_star.png";
 import thirdImage from "../../assets/Vector.png";
 import fourthImage from "../../assets/game-icons_time-bomb.png";
+import {Link} from 'react-router-dom'
 
 const Main = () => {
   return (
@@ -57,7 +58,8 @@ const Main = () => {
       </section>
 
       <section className="secondSection">
-        <div className="card">Consult a therapist</div>
+        <div className="card"><Link to='/therapist'>Consult a therapist
+        </Link> C</div>
       </section>
 
       <section className="thirdSection">
