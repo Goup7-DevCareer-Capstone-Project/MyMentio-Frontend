@@ -1,0 +1,20 @@
+   
+
+@media screen and (max-width: 960px) {
+  .slideContainer{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    background: red;
+    overflow-x: hidden;
+    align-items: center;
+  }
+
+  .slideContainer img{
+    width: 90vw;
+  }
+  .slide{
+    width: 90vw;
+  }
+
+}

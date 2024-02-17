@@ -8,6 +8,7 @@
   margin-right: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  overflow-x: hidden;
 }
 .mainMission h2 {
   padding-top: 7rem;
@@ -21,6 +22,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  overflow-x: hidden;
 }
 
 .mainVission h2 {
@@ -36,6 +38,8 @@
   margin-left: auto;
   margin-right: auto;
   /* height: 100vh; */
+  overflow-x: hidden;
+
 }
 
 .mainText {
@@ -51,6 +55,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 2rem;
+  overflow-x: hidden;
 }
 
 .firstSection .card {
@@ -77,6 +82,7 @@
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  overflow-x: hidden;
 }
 .secondSection {
   background: #2e3788;
@@ -108,6 +114,7 @@
   margin-right: auto;
   text-align: center;
   place-content: center;
+  overflow-x: hidden;
 }
 
 .thirdSection h2 {

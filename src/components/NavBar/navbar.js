@@ -12,18 +12,16 @@ const Navbar = () => {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-
-
   const regobj = localStorage.getItem("username");
   const navigate = useNavigate();
   const logout = () => {
     localStorage.clear();
     navigate("/");
   };
-  
+
   useEffect(() => {
-      let username = localStorage.getItem("username");
-      
+    let username = localStorage.getItem("username");
+
     // const regobj = JSON.stringify(localStorage.getItem("id"));
     if (username === "" || username === null) {
       localStorage.clear();
@@ -125,8 +123,13 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="navItem">
-                <Link to="/login" className="btnPrimary" id="logout" onClick={logout}>
-                  Logout 
+                <Link
+                  to="/login"
+                  className="btnPrimary"
+                  id="logout"
+                  onClick={logout}
+                >
+                  Logout
                 </Link>
               </li>
             </ul>
@@ -215,50 +218,50 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="">
-              
-              <div className=" dropdown ">
-                <Link className="dropbtn btnPrimary " >Login</Link>
-                
-                <div className="dropdown-content">
-                <Link
-                  to="/login"
-                  className="btnPrimary "
-                  onClick={closeMobileMenu}
-                >
-                  Patient
-                </Link>
-                <Link
-                  to="/login2"
-                  className="btnPrimary"
-                  onClick={closeMobileMenu}
-                >
-                  Therapist
-                </Link>
+                <div className=" dropdown ">
+                  <Link className="dropbtn btnPrimary ">Login</Link>
+
+                  <div className="dropdown-content">
+                    <Link
+                      to="/login"
+                      className="btnPrimary "
+                      onClick={closeMobileMenu}
+                    >
+                      Patient
+                    </Link>
+                    <Link
+                      to="/login2"
+                      className="btnPrimary"
+                      onClick={closeMobileMenu}
+                    >
+                      Therapist
+                    </Link>
+                  </div>
                 </div>
-              </div>
               </li>
-              
+
               <li>
                 <div className="dropdown">
-                  <Link className='dropbtn btnSecondary' navLink>Get Started</Link> 
+                  <Link className="dropbtn btnSecondary" navLink>
+                    Get Started
+                  </Link>
 
-                <div className="dropdown-content">
-                <Link
-                  to="/getStarted"
-                  className="btnPrimary "
-                  onClick={closeMobileMenu}
-                >
-                  
-                Patient
-                </Link>
-                <Link
-                  to="/getStarted2"
-                  className="btnPrimary"
-                  onClick={closeMobileMenu}
-                >
-                  Therapist
-                </Link>
-                </div>
+                  <div className="dropdown-content">
+                    <Link
+                      to="/getStarted"
+                      className="btnPrimary "
+                      onClick={closeMobileMenu}
+                    >
+                      Patient
+                    </Link>
+                    <Link
+                      to="/getStarted2"
+                      className="btnPrimary"
+                      onClick={closeMobileMenu}
+                    >
+                      Therapist
+                    </Link>
+                  </div>
                 </div>
 
                 {/* {button && <Button className="Children">Get started</Button>} */}

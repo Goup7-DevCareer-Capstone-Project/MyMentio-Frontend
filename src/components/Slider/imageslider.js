@@ -1,6 +1,7 @@
 import React from "react";
 import "react-slideshow-image/dist/styles.css";
 import { Fade, Zoom, Slide } from "react-slideshow-image";
+import './imageslider.css'
 
 const slideImages = [
   {
@@ -25,6 +26,9 @@ const divStyle = {
   width: "89vw",
   flexWrap: "wrap"
 };
+
+
+
 
 function ImageSlider() {
   return (

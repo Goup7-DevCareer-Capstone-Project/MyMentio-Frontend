@@ -4,19 +4,16 @@ import firstImage from "../../assets/ri_psychotherapy-fill.png";
 import secondImage from "../../assets/maki_star.png";
 import thirdImage from "../../assets/Vector.png";
 import fourthImage from "../../assets/game-icons_time-bomb.png";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
     <main>
       <div className="mainMission">
-       
-
         <h2>Our Mission</h2>
         <p>
           Providing accessible and personalized online therapy and resources
         </p>
-       
       </div>
       <div className="mainVission">
         <h2>Our Vission</h2>
@@ -58,8 +55,7 @@ const Main = () => {
       </section>
 
       <section className="secondSection">
-        <div className="card"><Link to='/therapist'>Consult a therapist
-        </Link> C</div>
+        <div className="card">Consult a therapist</div>
       </section>
 
       <section className="thirdSection">
