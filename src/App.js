@@ -26,10 +26,10 @@ function App() {
 
     <>
     <ToastContainer></ToastContainer>
-      <HashRouter basename="/">
+      <HashRouter basename="MyMentio-Frontend">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/ MyMentio-Frontend" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="therapist" element={<TherapistCard />} />
           <Route path="search" element={<Search />} />
